@@ -1,47 +1,50 @@
 body{
+    background-color:blueviolet;
+}
+
+#yow{
+    width: 300px;
+    height: 150px;
+}
+header{
+    justify-content: center; 
+     margin-top: 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    height: 100vh;
-    background-color: blueviolet;
-    background-repeat: no-repeat;
-    background-size: cover;
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgb(0, 255, 204), 0 0 10px aquamarine;
+      animation: glow-border 1.5s infinite alternate;
 }
-.card-wrapper{
-   background-color: white;
-   padding: 30px 20px;
-   border-radius: 20px;
-   text-align: center;
-   width: 300px;
-    height: 60vh;
-   box-shadow: 0 10px 30px ;
+ 
+ 
+button{
+    background-color: blue;
+    color: aliceblue;
+    box-shadow: 0 0 2px cyan;
+    border-radius: 25px;
+    border-color: aqua;
+    font: bold;  
+    width: 290PX;
+    height: 40PX;
+    font-size: 1em;
+    
 }
-.profile-imge{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 15px;
-    border: 3px solid #ccc;
+ 
+
+footer{
+    text-align: center;
 }
-h4{
-    color: white;
-    background:linear-gradient(to right,purple,blue);
-    border-radius: 50px;
+.cade{
+    margin-right: 25%;
+    border:2px groove #050608;
+    width: 22em;
+    margin-left: 25em;
+    background-color: azure;
+    border-radius: 19px;  
 }
-p{
-    color: grey;
-}
-.social-icons{
-    margin-top: 15px;
-}
-.social-icons{
-    margin: 0 8px;
-    text-decoration: none;
-    font-size: 30px;
-    padding: 10px;
-    border-radius: 50%;
-    display: inline-block;
-    transition: 0.3s ease;
+main{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
